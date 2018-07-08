@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ideapad.login.Lista_fechas">
+
+    <ListView
+        android:id="@+id/lista_F"
+        android:layout_width="match_parent"
+        android:layout_height="455dp"></ListView>
+
+    <Button
+        android:id="@+id/btn_volver"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Volver al Mapa"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ideapad.login.Menu">
+
+
+    <Button
+        android:id="@+id/lista_tareasS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de tareas (Sensores)"
+        android:layout_below="@+id/lista_tareasM"
+        android:layout_alignLeft="@+id/lista_tareasM"
+        android:layout_alignStart="@+id/lista_tareasM"
+        android:layout_alignRight="@+id/lista_tareasM"
+        android:layout_alignEnd="@+id/lista_tareasM" />
+
+    <Button
+        android:id="@+id/fijar_sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/lista_tareasS"
+        android:layout_alignLeft="@+id/lista_tareasS"
+        android:layout_alignRight="@+id/lista_tareasS"
+        android:layout_alignStart="@+id/lista_tareasS"
+        android:layout_below="@+id/lista_tareasS"
+        android:text="Almacén de datos de los sensores" />
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Principal"
+        android:textSize="35dp"
+        android:layout_marginTop="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/lista_tareasM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de tareas (Manuales)"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <Button
+        android:id="@+id/C_sesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrar Sesión"
+        android:layout_marginBottom="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
